@@ -1,0 +1,129 @@
+
+@import 'colors';
+
+.navbar
+{
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    background-color: $navColor;
+    
+}
+
+.myNB a
+{
+    color: aliceblue;
+}
+
+.myNB a:hover
+{
+    color: $firstNavColor;
+}
+
+.brand
+{
+    width: 80px;
+    height: 80px;    
+}
+
+.clock
+{
+    font-size: 14px;
+}
+
+.firstNav
+{
+    background-color: $firstNavColor;
+    padding: 0;
+    margin: 0;
+}
+
+.firstNav a
+{
+    font-size: 25px;
+    color: $linkColor;
+    padding: 0px 10px;
+}
+
+.firstNav .a1:hover
+{
+    color: #4267b2;
+    cursor: pointer;
+}
+
+.firstNav .a2:hover
+{
+    color: #38A1F3;
+    cursor: pointer;
+}
+
+.firstNav .a3:hover
+{
+    color: #231F20;
+    cursor: pointer;
+}
+
+.firstNav .a4:hover
+{
+    color: #ED3833;
+    cursor: pointer;
+}
+
+.firstNav .a5:hover
+{
+    color: #0077B5;
+    cursor: pointer;
+}
+
+.firstNav .a6:hover
+{
+    color: #0084FF;
+    cursor: pointer;
+}
+
+.myToggle a:hover
+{
+    cursor: pointer;
+    color: #09c;
+}
+
+.a7 span
+{
+    font-size: 18px;
+}
+
+.firstNav .a7:hover
+{
+    cursor: pointer;
+    color: black;
+}
+
+.dropdown-menu
+{
+    background-color: rgba(128, 128, 128, 0.9);
+    
+}
+
+.dropdown-menu h5
+{
+    cursor: pointer;
+}
+
+.dropdown-menu h5:hover
+{
+    color: aliceblue;
+}
+
+.nav-link
+{
+    cursor: pointer;
+}
+
+.myNB h6
+{
+    color: black;
+}
+
+.myNB h6:hover
+{
+    color: aliceblue;
+}

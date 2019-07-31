@@ -1,0 +1,37 @@
+<!--
+<form class="form-inline my-2 my-lg-0 myForm">
+  <input class="form-control mr-sm-2" [(ngModel)]="term" name="first" type="text" placeholder="Search">
+  |search:term
+</form>
+-->
+
+<div class="jumbotron pt-0">
+  <h3 class="text-center pt-2">LATEST NEWS</h3>   
+    <div class="container">
+      <div class="row" >
+        <div *ngFor="let item of newsContainer" class="col-9 col-sm-6 col-md-4 col-lg-3 pt-5">
+      <div class="newsItem p-2">
+        <a [href]="item.url" target="_blank">
+        <img [src]="item.urlToImage" class="pb-3 " height="200" width="250">
+      <h5>{{item.title}}</h5>
+      <p>{{item.description}}</p>
+    </a>
+    </div>
+    </div> 
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

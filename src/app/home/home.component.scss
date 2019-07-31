@@ -1,0 +1,30 @@
+
+$fontColor:#000;
+$mainMargin:5px;
+
+
+
+.myDiv
+{
+    
+    text-align: center;
+    width: 100%;
+    background-color: #6b6b6b;
+}
+
+.jumbotron
+{
+    font-family: 'PT Serif', serif;
+}
+
+a
+{
+    color: $fontColor;
+    text-decoration: none;
+}
+
+.newsItem h5 p
+{
+    margin: $mainMargin;
+}
+
