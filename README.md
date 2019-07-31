@@ -1,6 +1,15 @@
-# App1
+# News website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+Simple website displays the latest news for some countries.
+
+![newsfull](https://user-images.githubusercontent.com/48655469/62255548-50358900-b406-11e9-95b6-fff7ecd3ad3b.png)
+
+
+## Technologies used
+* Angular7+
+* Web service
+* SASS
+* TypeScript
 
 ## Development server
 
